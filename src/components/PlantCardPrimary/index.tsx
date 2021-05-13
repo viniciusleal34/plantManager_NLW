@@ -11,7 +11,7 @@ interface PlantProps extends RectButtonProps {
   };
 }
 
-const EnviromentButton: React.FC<PlantProps> = ({ data, ...rest }) => {
+const PlantCardPrimary: React.FC<PlantProps> = ({ data, ...rest }) => {
   return (
     <Container {...rest}>
       <SvgFromUri uri={data.photo} width={70} height={70} />
@@ -20,4 +20,4 @@ const EnviromentButton: React.FC<PlantProps> = ({ data, ...rest }) => {
   );
 };
 
-export default EnviromentButton;
+export default PlantCardPrimary;

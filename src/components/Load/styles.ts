@@ -11,7 +11,4 @@ export const Animation = styled(LottieView)`
   background-color: transparent;
   width: 200px;
   height: 200px;
-  path {
-    fill: #000;
-  }
 `;
